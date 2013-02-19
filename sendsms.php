@@ -137,14 +137,6 @@ class sendsmsHandler{
             $this->cookies[$v['name']] = $v;
         }
     }
-    /**
-     * 报错
-     *
-     * @param string $str
-     */
-    function error($str){
-        quit($str);
-    }
 }
 // app run
 App::instance()->run();
